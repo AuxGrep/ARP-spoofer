@@ -7,3 +7,20 @@ ADVANCED ARP spoofer for powerful MITM Attacks
 # ABOUT
 An advanced ARP spoofer is a network attack tool or script that performs ARP (Address Resolution Protocol) spoofing in a more sophisticated and effective way. 
 ARP spoofing is a technique used by attackers to intercept communication between two devices on a local network, often for purposes like man-in-the-middle attacks, session hijacking, or network monitoring
+
+# FEATURES
+1. Multiple Target Spoofing => It can spoof multiple targets simultaneously, allowing it to manipulate traffic between several hosts on the network.
+2. Packet Filtering and Injection => It can filter and modify intercepted packets before forwarding them, making them useful for tasks like injecting malicious code or manipulating data in transit.
+3. Log POst Data events => It logs all POST data sent by victim in a log file
+4. Beef and Other py injection capability => It support third part loader to inject on the traffic such as BEEF
+5. User-Friendly Interface and Automation => It typically have user-friendly CLI interfaces, with the ability to automate and script complex attack workflows.
+
+# INSTALL
+1. git clone https://github.com/AuxGrep/ARP-spoofer
+2. sudo chmod 775 setup-ARP-MITM.sh
+3. sudo ./setup-ARP-MITM.sh
+
+# USAGE
+1. sudo python3 arp_spoofer.py --help
+2. Setup target Manual: sudo python3 arp_spoofer.py
+3. One line Usage: sudo python3 arp_spoofer.py -t <gateway> <Victim_ip>
