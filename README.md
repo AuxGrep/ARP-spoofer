@@ -23,4 +23,5 @@ ARP spoofing is a technique used by attackers to intercept communication between
 # USAGE
 1. sudo python3 arp_spoofer.py --help
 2. Setup target Manual: sudo python3 arp_spoofer.py
-3. One line Usage: sudo python3 arp_spoofer.py -t <gateway> <Victim_ip>
+3. One line Usage: sudo python3 arp_spoofer.py -t gateway Victim_ip
+   eg: sudo python3 arp_spoofer.py -t 192.168.10.1 192.168.10.170
